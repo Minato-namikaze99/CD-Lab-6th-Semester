@@ -4,8 +4,8 @@
 %}
 
 %%
-[A-Za-z0-9._/]+[@]"gmail"+[.]"com" printf("This is a valid Email");
-
+[A-Za-z0-9._/]+"@gmail.com" printf("This is a valid GMail");
+.+ printf("This is not a valid GMail");
 %%
 
 int yywrap(){return 0;}

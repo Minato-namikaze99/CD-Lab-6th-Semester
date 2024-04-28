@@ -7,8 +7,7 @@ int count = 0;
 %}
 
 %%
-{letter} ({letter}|{digit})* count++;
-/yytext;
+{letter}|({letter}|{digit})* count++;
 \n {return 0;}
 %%
 

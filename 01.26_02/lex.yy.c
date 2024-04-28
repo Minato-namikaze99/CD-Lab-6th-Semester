@@ -448,11 +448,12 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "program3.l"
-#line 2 "program3.l"
+#line 1 "file3.l"
+/*This Flex Program accepts some inputs and shows us whether they are Uppercase Word, or lowercase word, or integers, etc.*/
+#line 3 "file3.l"
 #include<stdio.h>
-#line 455 "lex.yy.c"
 #line 456 "lex.yy.c"
+#line 457 "lex.yy.c"
 
 #define INITIAL 0
 
@@ -669,9 +670,9 @@ YY_DECL
 		}
 
 	{
-#line 4 "program3.l"
+#line 5 "file3.l"
 
-#line 675 "lex.yy.c"
+#line 676 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -730,50 +731,50 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 5 "program3.l"
+#line 6 "file3.l"
 printf("Lowercase Letter\n");
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 6 "program3.l"
+#line 7 "file3.l"
 printf("Uppercase Letter\n");
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 7 "program3.l"
+#line 8 "file3.l"
 printf("Word\n");
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 8 "program3.l"
+#line 9 "file3.l"
 printf("Integer\n");
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 9 "program3.l"
+#line 10 "file3.l"
 printf("Float\n");
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 10 "program3.l"
+#line 11 "file3.l"
 printf("Semicolon\n");
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 11 "program3.l"
+#line 12 "file3.l"
 printf("Open Parenthesis\n");
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 12 "program3.l"
+#line 13 "file3.l"
 printf("Close Parenthesis\n");
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 14 "program3.l"
+#line 15 "file3.l"
 ECHO;
 	YY_BREAK
-#line 777 "lex.yy.c"
+#line 778 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1778,7 +1779,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 14 "program3.l"
+#line 15 "file3.l"
 
 
 int yywrap(){};

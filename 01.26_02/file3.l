@@ -3,8 +3,8 @@
 #include<stdio.h>
 %}
 %%
-[a-z]+ printf("Lowercase Letter\n");
-[A-Z]+ printf("Uppercase Letter\n");
+[a-z]+ printf("Lowercase Word\n");
+[A-Z]+ printf("Uppercase Word\n");
 [a-z A-Z]+ printf("Word\n");
 [0-9]+ printf("Integer\n");
 [0-9.]+ printf("Float\n");
