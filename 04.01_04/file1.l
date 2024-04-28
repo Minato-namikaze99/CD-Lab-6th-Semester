@@ -1,4 +1,4 @@
-/* This is the lex file that we created to return the tokens of the input. The definitions and all are given pn the YACC file */
+/* This is the lex file that we created to return the tokens of the input. The definitions and all are given on the YACC file */
 %{
 #include "y.tab.h" //we included the header file produced by the YACC File
 #include<stdlib.h>
