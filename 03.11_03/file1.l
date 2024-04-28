@@ -7,7 +7,7 @@
 
 %%
 
-[A-Z]+[\t\n ] {printf("%s is a Capital Word! ", yytext);} /*yytext is the valid text that we will input*/
+[A-Z]+ {printf("%s is a Capital Word! ", yytext);} /*yytext is the valid text that we will input*/
 . ;
 
 %%
